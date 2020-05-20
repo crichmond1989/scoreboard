@@ -1,0 +1,14 @@
+.team-line {
+  td {
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+  }
+
+  td:first-of-type {
+    text-align: left;
+  }
+
+  .summary {
+    font-weight: bold;
+  }
+}

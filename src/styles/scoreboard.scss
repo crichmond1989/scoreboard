@@ -1,0 +1,29 @@
+.scoreboard {
+  table {
+    background: #fafafa;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th {
+    background: #ddd;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+  }
+
+  tr {
+    > :nth-child(1) {
+      border-right: 1px solid black;
+      padding-right: 1rem;
+    }
+
+    // extra innings
+    > :nth-child(10):not(:nth-last-child(3)) {
+      border-right: 1px dashed black;
+    }
+
+    > :nth-last-child(3) {
+      border-left: 1px solid black;
+    }
+  }
+}

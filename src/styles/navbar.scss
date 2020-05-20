@@ -1,0 +1,16 @@
+nav {
+  align-items: center;
+  background-color: #363636;
+  color: white;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  a {
+    color: inherit;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}

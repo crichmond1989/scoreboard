@@ -1,20 +1,37 @@
 {
-  "name": "batting-avg",
+  "name": "@crichmond1989/scorecard",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.2",
+    "@storybook/react": "^5.3.18",
+    "@testing-library/jest-dom": "^5.8.0",
+    "@testing-library/react": "^10.0.4",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.9.3"
+  },
+  "resolutions": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "jest-environment-jsdom": "^26.0.1",
+    "webpack": "4.42.0"
   },
   "eslintConfig": {
     "extends": "react-app"
